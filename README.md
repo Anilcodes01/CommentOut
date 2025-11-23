@@ -1,4 +1,4 @@
-# Comment Remover
+# Comment Out
 
 **Clean up your code instantly.**
 
@@ -61,7 +61,7 @@ Look for the **Trash Can icon** (or your custom logo) in the top-right editor ti
 *   **Auto-Format:** Code is now automatically formatted after comments are removed.
 *   **Feedback:** Added "No comments found" notification if the code is already clean.
 
-### 0.0.1 - 0.0.5
+### 0.0.1 - 0.0.3
 *   Initial release with C-Style support (JS/TS).
 *   Added Toolbar button and Shortcuts.
 *   Fixed issue where URLs were incorrectly deleted.
