@@ -2,9 +2,21 @@
 
 **Clean up your code instantly.**
 
-Comment Remover is an intelligent Visual Studio Code extension that automatically strips single-line and multi-line comments from your files while preserving strings, URLs, and regex patterns. It detects the language you are working in and applies the correct logic instantly.
+Comment Out is an intelligent Visual Studio Code extension that automatically strips single-line and multi-line comments from your files while preserving strings, URLs, and regex patterns. It detects the language you are working in and applies the correct logic instantly.
 
 Perfect for preparing code for production, minifying files manually, or simply cleaning up a cluttered workspace.
+
+---
+
+## 👀 See it in Action
+
+**Before:** Messy code with mixed comments.
+![Before Cleaning](images/demo-before.png)
+
+**After:** One click later—Clean, formatted, and ready for production.
+![After Cleaning](images/demo-after.png)
+
+---
 
 ## 🚀 Features
 
@@ -33,7 +45,9 @@ This extension automatically detects the file type and applies the correct remov
 ## 📖 How to Use
 
 ### 1. The Toolbar Button (Easiest)
-Look for the **Trash Can icon** (or your custom logo) in the top-right editor title bar. Click it to instantly strip comments and format the file.
+Look for the **Comment Out icon** in the top-right editor title bar. Click it to instantly strip comments and format the file.
+
+![Toolbar Button](images/toolbar-icon.png)
 
 ### 2. Keyboard Shortcut
 *   **Windows / Linux:** `Ctrl` + `Alt` + `C`
@@ -55,13 +69,13 @@ Look for the **Trash Can icon** (or your custom logo) in the top-right editor ti
 
 ## 📝 Release Notes
 
-### 0.0.3 (Latest Update)
+### 0.0.7 (Latest Update)
 *   **Huge Update:** Added support for **Python, HTML, SQL, Shell, YAML, and CSS**.
 *   **HTML Logic:** Now recursively cleans JavaScript inside `<script>` tags and CSS inside `<style>` tags within HTML files.
 *   **Auto-Format:** Code is now automatically formatted after comments are removed.
 *   **Feedback:** Added "No comments found" notification if the code is already clean.
 
-### 0.0.1 - 0.0.3
+### 0.0.1 - 0.0.7
 *   Initial release with C-Style support (JS/TS).
 *   Added Toolbar button and Shortcuts.
 *   Fixed issue where URLs were incorrectly deleted.

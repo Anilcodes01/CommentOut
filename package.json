@@ -2,7 +2,11 @@
   "name": "anilcodes01-commentout",
   "displayName": "CommentOut",
   "description": "Removes all comments from the current file",
-  "version": "0.0.3",
+  "version": "0.0.7",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anilcodes01/CommentOut"
+  },
   "publisher": "anilcodes01-commentout",
   "icon": "logo.png",   
   "engines": {
